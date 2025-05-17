@@ -25,6 +25,9 @@ class LandmarkAdapter(val landmarklist:ArrayList<Landmark>):RecyclerView.Adapter
     return landmarklist.size
     }
 
+    @SuppressLint(
+        "SuspiciousIndentation"
+    )
     override fun onBindViewHolder(
         holder: LandmarkHolder,
         position: Int
